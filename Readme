@@ -1,0 +1,24 @@
+Mission Accomplished:
+
+1. I have created a project folder Numquiz and here are the dependencies am using and steps to test.
+2. added the dependencies, went to terminal, in the current  directory.
+3. installed express using: npm install express command
+4. installed pug( alternative for html): npm install pug
+5. created view folder and put my .pug files there, pug is a template engine that is basically like html with interactive features, like using variable and loop inside.
+6. Created app.js file,
+7. By requesting the http:localhost/  in two different tabs in the browser It has simultaniously connected rendered which means two persons can play the game at a time.
+
+Test instructions:
+
+1. Intiated express and so that it will listen to port 2020.
+2. Then the form page will be rendered when  pug files executed as soon as the webpage 'localhost:2022/' is requested by the user..so (put this in the brawser for testing).
+3. Read the instruction on the webpage and play the game...GUESS AND SUBMIT.
+4. Then Once the number of tryers allowed are done, a new page will be rendered showing the score results in the number of tryers in the sesion.
+5. then the the  user to can click on the RESTART THE GAME LINK GIVE to go back into the last webpage to to play the game again.
+9. Agter this the user will have another chance to play the game again by submiting his/her gases. 
+10.At last to prove that, multiple people can play the game at a time, send the request in to different tabs in the browser, and if the game webpage is correctly rendered in both tabs, lough out loud it has proved that two or more people can play the game. 
+
+Thanks!
+
+Haile-Ghirmay-Tesgay@2022@miu
+Student Id:614139

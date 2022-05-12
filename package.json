@@ -1,0 +1,17 @@
+{
+  "name": "numquize",
+  "version": "1.0.0",
+  "description": "mission done and doeses to test the number quize Lab!:",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "pug": "^3.0.2"
+  }
+}

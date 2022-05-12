@@ -1,0 +1,17 @@
+html
+  head
+    title= 'Number Quiz'
+  body 
+    form(method="POST" action= "http://localhost:2022/submit")
+      h1= 'The Number Quiz'
+
+      p= 'Your current score is '+ score 
+      p= 'Guess the number in the sequence.'
+      p= sequence 
+
+      label= 'Your answer: '
+        input(type="number" name="answer")
+        br 
+        input(type="submit")
+
+    
